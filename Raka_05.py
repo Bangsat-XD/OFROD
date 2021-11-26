@@ -1,6 +1,6 @@
 #coding=utf-8
 #!/usr/bin/python2
-#Originally Written By Raka_Andrian
+#Originally Written By raka_andrian27
 try:
     import os,sys,time,datetime,re,random,hashlib,threading,json,getpass,urllib,cookielib,requests
     from multiprocessing.pool import ThreadPool
