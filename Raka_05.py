@@ -51,7 +51,7 @@ c2 = "\033[0;97m"
 c3 = "\033[1;31m"
 #MyLogo
 def logo():
-    os.system('echo -e "\n\n██████╗░░█████╗░██╗░░██╗░█████╗░ ◍➤ ADMIN ™\n██╔══██╗██╔══██╗██║░██╔╝██╔══██╗ ◍➤ COMUNITAS\n██████╔╝███████║█████═╝░███████║ ◍➤ GARANGAN\n██╔══██╗██╔══██║██╔═██╗░██╔══██║ ◍➤ ALAY\n██║░░██║██║░░██║██║░╚██╗██║░░██║ ◍➤ INDONESIA\n╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝\n\n=============================================\n\n◍➤ Codded By : ☆ RAKA ☆ ™︻®╤───────═◍➤\n◍➤ Facebook  : Raka Andrian Tara\n◍➤ Instagram : raka_andrian27\n◍➤ Youtube   : YouTube Channel Bangsat-XD\n\n=============================================" | lolcat')
+    os.system('echo -e "\n\n██████╗░░█████╗░██╗░░██╗░█████╗░ ◍➤ ADMIN ™\n██╔══██╗██╔══██╗██║░██╔╝██╔══██╗ ◍➤ COMUNITAS\n██████╔╝███████║█████═╝░███████║ ◍➤ GARANGAN\n██╔══██╗██╔══██║██╔═██╗░██╔══██║ ◍➤ ALAY\n██║░░██║██║░░██║██║░╚██╗██║░░██║ ◍➤ INDONESIA\n╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝ ◍➤ C.G.A.I\n\n=============================================\n\n◍➤ Codded By : ☆ RAKA ☆ ™︻®╤───────═◍➤\n◍➤ Facebook  : Raka Andrian Tara\n◍➤ Instagram : raka_andrian27\n◍➤ Youtube   : YouTube Channel Bangsat-XD\n\n=============================================" | lolcat')
 def method_menu():
     os.system("clear")
     logo()
