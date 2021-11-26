@@ -254,7 +254,7 @@ def b_menu_select():
 			print("")
 			os.system('echo -e "\t    Followers Cloning " | lolcat')
 			print("")
-			print(" Target user : "+q["name"])
+			print("Target user : "+q["name"])
 		except (KeyError , IOError):
 		    print("")
 		    print("\n\t    \033[1;31m Logged in id has checkpoint\033[0;97m")
@@ -479,7 +479,7 @@ def dob_select():
 		try:
 			r = requests.get("https://graph.facebook.com/"+idt+"?access_token="+token, headers=header)
 			q = json.loads(r.text)
-			print(" Target Id : "+q["name"])
+			print("Target Id : "+q["name"])
 		except KeyError:
 		    print("")
 		    print('\033[1;31mID Not Found'+c2)
@@ -503,7 +503,7 @@ def dob_select():
 		try:
 			r = requests.get("https://graph.facebook.com/"+idt+"?access_token="+token, headers=header)
 			q = json.loads(r.text)
-			print(" Target user : "+q["name"])
+			print("Target user : "+q["name"])
 		except KeyError:
 			print('\t    \033[1;31mID Not Found\033[0;97m')
 			raw_input("\nPress enter to back ")
@@ -680,7 +680,7 @@ def l_menu_select():
 			print("")
 			os.system('echo -e "\t    CRACK Public ID " | lolcat')
 			print("")
-			print(" Target user : "+q["name"])
+			print("Target user : "+q["name"])
 		except (KeyError , IOError):
 		    print("")
 		    print("\n\t    \033[1;31m Logged in id has checkpoint\033[0;97m")
@@ -714,7 +714,7 @@ def l_menu_select():
 			print("")
 			os.system('echo -e "\t    Followers Cloning " | lolcat')
 			print("")
-			print(" Target user : "+q["name"])
+			print("Target user : "+q["name"])
 		except (KeyError , IOError):
 		    print("")
 		    print("\n\t    \033[1;31m Logged in id has checkpoint\033[0;97m")
