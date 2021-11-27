@@ -527,7 +527,7 @@ def dob_select():
 	    print ("\t    \033[1;31mSelect valid option\033[0;97m")
 	    print("")
 	    dob_select()
-	print ("\x1b[1;93mTotal IDs : "+str(len(id)))
+	print ("\x1b[1;93mTotal ID   : "+str(len(id)))
 	print("\x1b[1;93mThe Process has started")
 	print("\x1b[1;93mNote : This is for testing only")
 	print("")
